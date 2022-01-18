@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { FunctionComponent, ReactElement, useEffect, useRef, useState } from "react";
+import {
+  FunctionComponent,
+  ReactElement,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 
 import Calendar from "../public/calendar.svg";
 import Heart from "../public/heart.svg";
@@ -56,7 +62,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ title, children }) => {
 
       <div
         id="layout-container"
-        className="w-full min-h-screen py-4 mb-12 dark:bg-neutral-800 dark:text-white"
+        className="w-full min-h-screen py-4 mb-12 bg-gray-100 dark:bg-neutral-800 dark:text-white"
       >
         {children}
       </div>

@@ -8,7 +8,7 @@ import { FC, ReactElement } from "react";
  */
 const Document: FC<DocumentProps> = () => {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <meta
           name="description"
