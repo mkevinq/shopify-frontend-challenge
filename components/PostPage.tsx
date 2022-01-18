@@ -11,6 +11,10 @@ type PostPageProps = {
 /**
  * Generic page to display posts.
  *
+ * @param root0
+ * @param root0.error
+ * @param root0.posts
+ * @param root0.loading
  * @returns {ReactElement} - Markup for a page that displays posts.
  */
 const PostPage: FunctionComponent<PostPageProps> = ({
@@ -42,7 +46,7 @@ const PostPage: FunctionComponent<PostPageProps> = ({
         id="content-container"
         className="w-full h-full flex flex-wrap flex-col md:flex-row place-items-center md:place-items-start md:justify-around gap-4 py-4"
       >
-        {error && (
+        {error && posts.length < 1 && (
           <div id="error-message">
             <p>Couldn&apos;t load posts! Error: {JSON.stringify(error)}</p>
           </div>
