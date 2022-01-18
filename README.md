@@ -2,7 +2,7 @@
 
 This is my submission for the Summer 2022 Shopify Frontend Intern Challenge!
 
-A working demo can be found at: [https://shopify-frontend-challenge-six.vercel.app/](localhost:3000)
+A working demo can be found at: [https://shopify-frontend-challenge-six.vercel.app/](https://shopify-frontend-challenge-six.vercel.app/)
 
 ## About
 
